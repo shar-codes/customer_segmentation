@@ -1,2 +1,5 @@
 # customer_segmentation
 We'll attempt to train a model using sklearn in python  on existing customer data and leverage it to predict potential high-value customers
+In this treatise we'll start out with dataset of customer demographics and corresponding transaction data. The objective will be to train a model to existing customer data and leverage it to predict potential high-value customers for the client. 
+The data has been pre-processed and cleaned accounting for white-spaces, duplicates etc. We'll start by dealing with nulls, using appropriate imputation methods. Simple imputation should prove satisfcatory and regression imputation methods needn't be employed. Target encoding or One Hot Encoding can be leveraged to deal with categorical variables as the cardinality is low.
+We'll then begin building the model. We'll explore various methods starting with supervised methods like decision forest regressors and XGBoost mechanisms, use mutual information to gauge which predictors are useful, and end with unsupervised methods like K-Means clustering and note which method is most effective in minimising the loss function. 
